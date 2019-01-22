@@ -1,0 +1,1 @@
+include ':app', ':baselibrary', ':module_begin', ':module_mine', ':module_home', ':module_video'
