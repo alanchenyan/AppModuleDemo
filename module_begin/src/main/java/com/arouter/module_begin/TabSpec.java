@@ -7,10 +7,8 @@ import android.widget.TabHost;
 import android.widget.TextView;
 
 /**
- * date：2018/7/6 on 13:30
- * description: tab信息
+ * 首页tab信息
  */
-
 public class TabSpec {
 
     public int icon;

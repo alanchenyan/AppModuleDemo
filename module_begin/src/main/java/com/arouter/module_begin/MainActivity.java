@@ -25,9 +25,9 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Fragment fragment = (Fragment) ARouter.getInstance().build(RouteURL.HOME_FRAGMENT).navigation();
-        Fragment fragment2 = (Fragment) ARouter.getInstance().build(RouteURL.VIDEO_FRAGMENT).navigation();
-        Fragment fragment3 = (Fragment) ARouter.getInstance().build(RouteURL.MIME_FRAGMENT).navigation();
+        Fragment fragmentHome = (Fragment) ARouter.getInstance().build(RouteURL.HOME_FRAGMENT).navigation();
+        Fragment fragmentVideo = (Fragment) ARouter.getInstance().build(RouteURL.VIDEO_FRAGMENT).navigation();
+        Fragment fragmentMime = (Fragment) ARouter.getInstance().build(RouteURL.MIME_FRAGMENT).navigation();
 
 
         final FragmentTabHost tabHost = findViewById(R.id.tabhost);
@@ -37,9 +37,9 @@ public class MainActivity extends BaseActivity {
         mTabSpec2 = new TabSpec(tabHost, tabText[1], tabIcon[1]);
         mTabSpec3 = new TabSpec(tabHost, tabText[2], tabIcon[2]);
 
-        tabHost.addTab(mTabSpec1.getTabSpec(), fragment.getClass(), null);
-        tabHost.addTab(mTabSpec2.getTabSpec(), fragment2.getClass(), null);
-        tabHost.addTab(mTabSpec3.getTabSpec(), fragment3.getClass(), null);
+        tabHost.addTab(mTabSpec1.getTabSpec(), fragmentHome.getClass(), null);
+        tabHost.addTab(mTabSpec2.getTabSpec(), fragmentVideo.getClass(), null);
+        tabHost.addTab(mTabSpec3.getTabSpec(), fragmentMime.getClass(), null);
 
         tabHost.setCurrentTab(0);
 

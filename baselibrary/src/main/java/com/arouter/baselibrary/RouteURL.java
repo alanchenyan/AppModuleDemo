@@ -6,10 +6,10 @@ package com.arouter.baselibrary;
 public class RouteURL {
 
     public static final String MAIN_ACTIVITY = "/begin/MainActivity";
-    public static final String LOGIN_ACTIVITY = "/mine/ClickButtonActivity";
-    public static final String USER_SERVICE = "/service/UserService";
-    public static final String HOME_FRAGMENT = "/home/fragment";
-    public static final String MIME_FRAGMENT = "/mine/fragment";
-    public static final String VIDEO_FRAGMENT = "/video/fragment";
+    public static final String LOGIN_ACTIVITY = "/mine/LonginActivity";
+    public static final String USER_SERVICE = "/mine/UserInfoImpl";
+    public static final String HOME_FRAGMENT = "/home/HomeFragment";
+    public static final String MIME_FRAGMENT = "/mine/MIME_FRAGMENT";
+    public static final String VIDEO_FRAGMENT = "/video/VIDEO_FRAGMENT";
 
 }

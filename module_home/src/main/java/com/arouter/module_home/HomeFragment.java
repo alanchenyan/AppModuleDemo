@@ -10,6 +10,7 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.arouter.baselibrary.BaseFragment;
 import com.arouter.baselibrary.IUserInfo;
+
 import com.arouter.baselibrary.RouteURL;
 
 /**
@@ -20,7 +21,6 @@ public class HomeFragment extends BaseFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        ARouter.getInstance().inject(this);
         View view = inflater.inflate(R.layout.activity_home, null);
         TextView tv_text = view.findViewById(R.id.tv_text);
         String name = ARouter.getInstance().navigation(IUserInfo.class).getName();

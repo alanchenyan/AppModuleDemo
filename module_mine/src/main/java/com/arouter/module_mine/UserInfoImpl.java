@@ -14,7 +14,7 @@ import com.arouter.baselibrary.RouteURL;
 public class UserInfoImpl implements IUserInfo {
     @Override
     public String getName() {
-        return "张三";
+        return "Alan Chen";
     }
 
     @Override

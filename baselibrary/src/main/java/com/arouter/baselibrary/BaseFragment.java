@@ -8,10 +8,8 @@ import android.support.v4.app.Fragment;
 import com.alibaba.android.arouter.launcher.ARouter;
 
 /**
- * date：2018/7/9 on 13:31
- * description:
+ * 所有Fragment都继承BaseFragment
  */
-
 public class BaseFragment extends Fragment{
 
     @Override

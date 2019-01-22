@@ -6,10 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import com.alibaba.android.arouter.launcher.ARouter;
 
 /**
- * date：2018/7/4 on 17:20
- * description:
+ * 所有Actvity都继承BaseActivity
  */
-
 public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
