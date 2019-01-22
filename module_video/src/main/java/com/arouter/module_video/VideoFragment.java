@@ -8,16 +8,14 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.alibaba.android.arouter.launcher.ARouter;
 import com.arouter.baselibrary.BaseFragment;
-import com.arouter.baselibrary.JumpUtil;
+import com.arouter.baselibrary.RouteURL;
 
 /**
  * 模块编译运行时调用
  */
-@Route(path = JumpUtil.Fragment_Video)
+@Route(path = RouteURL.VIDEO_FRAGMENT)
 public class VideoFragment extends BaseFragment {
-
 
     @Nullable
     @Override

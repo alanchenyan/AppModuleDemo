@@ -6,7 +6,7 @@
         android:allowBackup="true"
         android:supportsRtl="true">
         <activity android:name=".TwoActivity"/>
-        <activity android:name=".ClickButtonActivity">
+        <activity android:name=".LoginActivity">
         </activity>
     </application>
 

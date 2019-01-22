@@ -10,12 +10,12 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.arouter.baselibrary.BaseFragment;
 import com.arouter.baselibrary.IUserInfo;
-import com.arouter.baselibrary.JumpUtil;
+import com.arouter.baselibrary.RouteURL;
 
 /**
  * 模块编译运行时调用
  */
-@Route(path = JumpUtil.Fragment_Home)
+@Route(path = RouteURL.HOME_FRAGMENT)
 public class HomeFragment extends BaseFragment {
 
     @Override

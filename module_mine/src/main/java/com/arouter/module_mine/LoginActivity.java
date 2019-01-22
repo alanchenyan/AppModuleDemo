@@ -7,11 +7,11 @@ import android.widget.TextView;
 import com.alibaba.android.arouter.facade.annotation.Autowired;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.arouter.baselibrary.BaseActivity;
-import com.arouter.baselibrary.JumpUtil;
+import com.arouter.baselibrary.RouteURL;
 
 
-@Route(path = JumpUtil.ClickButtonActivity)
-public class ClickButtonActivity extends BaseActivity {
+@Route(path = RouteURL.LOGIN_ACTIVITY)
+public class LoginActivity extends BaseActivity {
     @Autowired(name = "name")
     public String name;
     @Autowired(name = "age")

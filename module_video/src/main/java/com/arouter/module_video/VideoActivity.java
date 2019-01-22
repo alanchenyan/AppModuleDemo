@@ -8,7 +8,6 @@ import com.arouter.baselibrary.BaseActivity;
 /**
  * 独编译运行时调用
  */
-@Route(path = "/test/activity")
 public class VideoActivity extends BaseActivity {
 
     @Override

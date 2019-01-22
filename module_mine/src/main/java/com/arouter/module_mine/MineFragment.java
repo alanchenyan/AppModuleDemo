@@ -15,12 +15,12 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.facade.callback.NavigationCallback;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.arouter.baselibrary.BaseFragment;
-import com.arouter.baselibrary.JumpUtil;
+import com.arouter.baselibrary.RouteURL;
 
 /**
  * 模块编译运行时调用
  */
-@Route(path = JumpUtil.Fragment_Mime)
+@Route(path = RouteURL.MIME_FRAGMENT)
 public class MineFragment extends BaseFragment {
 
     @Override
@@ -37,7 +37,7 @@ public class MineFragment extends BaseFragment {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ARouter.getInstance().build(JumpUtil.ClickButtonActivity)
+                ARouter.getInstance().build(RouteURL.LOGIN_ACTIVITY)
                         .withString("name", et_login.getText().toString())
                         .withInt("age", 30)
                         .navigation(getActivity(),  new NavigationCallback() {

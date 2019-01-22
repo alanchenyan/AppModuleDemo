@@ -8,10 +8,10 @@ import android.widget.TabHost;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.arouter.baselibrary.BaseActivity;
-import com.arouter.baselibrary.JumpUtil;
+import com.arouter.baselibrary.RouteURL;
 
 
-@Route(path = JumpUtil.MainActivity)
+@Route(path = RouteURL.MAIN_ACTIVITY)
 public class MainActivity extends BaseActivity {
 
     private int[] tabIcon = {R.drawable.ic_home_red, R.drawable.ic_video_black, R.drawable.ic_mine_black};
@@ -25,9 +25,9 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Fragment fragment = (Fragment) ARouter.getInstance().build(JumpUtil.Fragment_Home).navigation();
-        Fragment fragment2 = (Fragment) ARouter.getInstance().build(JumpUtil.Fragment_Video).navigation();
-        Fragment fragment3 = (Fragment) ARouter.getInstance().build(JumpUtil.Fragment_Mime).navigation();
+        Fragment fragment = (Fragment) ARouter.getInstance().build(RouteURL.HOME_FRAGMENT).navigation();
+        Fragment fragment2 = (Fragment) ARouter.getInstance().build(RouteURL.VIDEO_FRAGMENT).navigation();
+        Fragment fragment3 = (Fragment) ARouter.getInstance().build(RouteURL.MIME_FRAGMENT).navigation();
 
 
         final FragmentTabHost tabHost = findViewById(R.id.tabhost);
