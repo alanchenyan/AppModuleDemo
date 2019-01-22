@@ -39,7 +39,7 @@ public class MineFragment extends BaseFragment {
             public void onClick(View view) {
                 ARouter.getInstance().build(RouteURL.LOGIN_ACTIVITY)
                         .withString("name", et_login.getText().toString())
-                        .withInt("age", 30)
+                        .withInt("age", 28)
                         .navigation(getActivity(),  new NavigationCallback() {
                             @Override
                             public void onFound(Postcard postcard) {
