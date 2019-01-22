@@ -8,7 +8,7 @@ import com.arouter.baselibrary.BaseActivity;
 import com.arouter.baselibrary.RouteURL;
 
 
-@Route(path = RouteURL.LOGIN_ACTIVITY)
+@Route(path = RouteURL.LOGIN_RESULT_ACTIVITY)
 public class LoginResultActivity extends BaseActivity {
     @Autowired(name = "name")
     public String name;

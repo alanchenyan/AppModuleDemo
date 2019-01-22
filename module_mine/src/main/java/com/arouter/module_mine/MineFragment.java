@@ -37,7 +37,7 @@ public class MineFragment extends BaseFragment {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ARouter.getInstance().build(RouteURL.LOGIN_ACTIVITY)
+                ARouter.getInstance().build(RouteURL.LOGIN_RESULT_ACTIVITY)
                         .withString("name", et_login.getText().toString())
                         .withInt("age", 28)
                         .navigation(getActivity(),  new NavigationCallback() {
