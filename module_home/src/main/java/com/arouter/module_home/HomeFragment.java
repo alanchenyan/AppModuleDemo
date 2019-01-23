@@ -9,8 +9,8 @@ import android.widget.TextView;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.aroute.module_route.HomeRoutePath;
-import com.arouter.baselibrary.BaseFragment;
 import com.arouter.baselibrary.IUserInfo;
+import com.arouter.baselibrary.base.BaseFragment;
 
 /**
  * 模块编译运行时调用

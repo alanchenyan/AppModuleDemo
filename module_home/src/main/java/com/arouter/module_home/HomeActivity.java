@@ -2,8 +2,8 @@ package com.arouter.module_home;
 
 import android.os.Bundle;
 
-import com.alibaba.android.arouter.facade.annotation.Route;
-import com.arouter.baselibrary.BaseActivity;
+import com.arouter.baselibrary.base.BaseActivity;
+
 
 /**
  * 独编译运行时调用

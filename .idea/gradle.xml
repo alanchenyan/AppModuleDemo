@@ -10,8 +10,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/baselibrary" />
-            <option value="$PROJECT_DIR$/module_begin" />
             <option value="$PROJECT_DIR$/module_home" />
+            <option value="$PROJECT_DIR$/module_main" />
             <option value="$PROJECT_DIR$/module_mine" />
             <option value="$PROJECT_DIR$/module_route" />
             <option value="$PROJECT_DIR$/module_video" />

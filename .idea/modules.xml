@@ -5,8 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/AppModuleDemo.iml" filepath="$PROJECT_DIR$/AppModuleDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/baselibrary/baselibrary.iml" filepath="$PROJECT_DIR$/baselibrary/baselibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/module_begin/module_begin.iml" filepath="$PROJECT_DIR$/module_begin/module_begin.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_home/module_home.iml" filepath="$PROJECT_DIR$/module_home/module_home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_main/module_main.iml" filepath="$PROJECT_DIR$/module_main/module_main.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_mine/module_mine.iml" filepath="$PROJECT_DIR$/module_mine/module_mine.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_route/module_route.iml" filepath="$PROJECT_DIR$/module_route/module_route.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_video/module_video.iml" filepath="$PROJECT_DIR$/module_video/module_video.iml" />

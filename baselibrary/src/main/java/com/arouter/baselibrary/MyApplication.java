@@ -11,9 +11,23 @@ import com.alibaba.android.arouter.launcher.ARouter;
  */
 
 public class MyApplication extends Application {
+
+    private static MyApplication instance;
+
+    /**
+     * 权限token 登录后获得
+     */
+    private String authToken;
+
+    public static MyApplication getInstance() {
+        return instance;
+    }
+
+
     @Override
     public void onCreate() {
         super.onCreate();
+        instance = this;
         initRouter(this);
     }
 
@@ -29,5 +43,13 @@ public class MyApplication extends Application {
     public void onTerminate() {
         super.onTerminate();
         ARouter.getInstance().destroy();
+    }
+
+    public String getAuthToken() {
+        return authToken;
+    }
+
+    public void setAuthToken(String authToken) {
+        this.authToken = authToken;
     }
 }

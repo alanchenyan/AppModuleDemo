@@ -5,6 +5,9 @@
 <application
     android:name=".MyApplication"
     android:allowBackup="true">
+
+    <activity android:name=".activity.AuthTipActivity"/>
+    <activity android:name=".activity.DegradeTipActivity"/>
 </application>
 
 </manifest>

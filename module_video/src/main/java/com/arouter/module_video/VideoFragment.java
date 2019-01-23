@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.aroute.module_route.VideoRoutePath;
-import com.arouter.baselibrary.BaseFragment;
+import com.arouter.baselibrary.base.BaseFragment;
 
 /**
  * 模块编译运行时调用
