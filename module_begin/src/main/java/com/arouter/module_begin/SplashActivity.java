@@ -6,8 +6,8 @@ import android.view.ViewAnimationUtils;
 import android.widget.ImageView;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.aroute.module_route.BeginRoutePath;
 import com.arouter.baselibrary.BaseActivity;
-import com.arouter.baselibrary.RouteURL;
 
 
 /**
@@ -35,7 +35,7 @@ public class SplashActivity extends BaseActivity {
                     @Override
                     public void onAnimationEnd(Animator animator) {
                         //greenChannel表示跳过拦截器验证
-                        ARouter.getInstance().build(RouteURL.MAIN_ACTIVITY).greenChannel().navigation();
+                        ARouter.getInstance().build(BeginRoutePath.MAIN_ACTIVITY).greenChannel().navigation();
                         finish();
                     }
 

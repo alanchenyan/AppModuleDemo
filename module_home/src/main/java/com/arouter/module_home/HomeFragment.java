@@ -8,15 +8,14 @@ import android.widget.TextView;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.aroute.module_route.HomeRoutePath;
 import com.arouter.baselibrary.BaseFragment;
 import com.arouter.baselibrary.IUserInfo;
-
-import com.arouter.baselibrary.RouteURL;
 
 /**
  * 模块编译运行时调用
  */
-@Route(path = RouteURL.HOME_FRAGMENT)
+@Route(path = HomeRoutePath.HOME_FRAGMENT)
 public class HomeFragment extends BaseFragment {
 
     @Override

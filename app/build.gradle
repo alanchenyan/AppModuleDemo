@@ -37,5 +37,6 @@ dependencies {
         implementation project(':module_video')
         implementation project(':module_begin')
         implementation project(':module_mine')
+        implementation project(':module_route')
     }
 }

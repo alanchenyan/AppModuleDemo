@@ -9,8 +9,8 @@ import android.widget.EditText;
 import com.alibaba.android.arouter.facade.Postcard;
 import com.alibaba.android.arouter.facade.callback.NavigationCallback;
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.aroute.module_route.MineRoutePath;
 import com.arouter.baselibrary.BaseActivity;
-import com.arouter.baselibrary.RouteURL;
 
 /**
  * 独编译运行时调用
@@ -27,7 +27,7 @@ public class LoginActivity extends BaseActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ARouter.getInstance().build(RouteURL.LOGIN_RESULT_ACTIVITY)
+                ARouter.getInstance().build(MineRoutePath.LOGIN_RESULT_ACTIVITY)
                         .withString("name", et_login.getText().toString())
                         .withInt("age", 28)
                         .navigation(LoginActivity.this,  new NavigationCallback() {

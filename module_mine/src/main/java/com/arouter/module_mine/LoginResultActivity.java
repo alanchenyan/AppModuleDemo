@@ -4,11 +4,11 @@ import android.os.Bundle;
 import android.widget.TextView;
 import com.alibaba.android.arouter.facade.annotation.Autowired;
 import com.alibaba.android.arouter.facade.annotation.Route;
+import com.aroute.module_route.MineRoutePath;
 import com.arouter.baselibrary.BaseActivity;
-import com.arouter.baselibrary.RouteURL;
 
 
-@Route(path = RouteURL.LOGIN_RESULT_ACTIVITY)
+@Route(path = MineRoutePath.LOGIN_RESULT_ACTIVITY)
 public class LoginResultActivity extends BaseActivity {
     @Autowired(name = "name")
     public String name;

@@ -7,11 +7,14 @@ import android.widget.TabHost;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.aroute.module_route.BeginRoutePath;
+import com.aroute.module_route.HomeRoutePath;
+import com.aroute.module_route.MineRoutePath;
+import com.aroute.module_route.VideoRoutePath;
 import com.arouter.baselibrary.BaseActivity;
-import com.arouter.baselibrary.RouteURL;
 
 
-@Route(path = RouteURL.MAIN_ACTIVITY)
+@Route(path = BeginRoutePath.MAIN_ACTIVITY)
 public class MainActivity extends BaseActivity {
 
     private int[] tabIcon = {R.drawable.ic_home_red, R.drawable.ic_video_black, R.drawable.ic_mine_black};
@@ -25,9 +28,9 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Fragment fragmentHome = (Fragment) ARouter.getInstance().build(RouteURL.HOME_FRAGMENT).navigation();
-        Fragment fragmentVideo = (Fragment) ARouter.getInstance().build(RouteURL.VIDEO_FRAGMENT).navigation();
-        Fragment fragmentMime = (Fragment) ARouter.getInstance().build(RouteURL.MIME_FRAGMENT).navigation();
+        Fragment fragmentHome = (Fragment) ARouter.getInstance().build(HomeRoutePath.HOME_FRAGMENT).navigation();
+        Fragment fragmentVideo = (Fragment) ARouter.getInstance().build(VideoRoutePath.VIDEO_FRAGMENT).navigation();
+        Fragment fragmentMime = (Fragment) ARouter.getInstance().build(MineRoutePath.MINE_FRAGMENT).navigation();
 
 
         final FragmentTabHost tabHost = findViewById(R.id.tabhost);
