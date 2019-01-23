@@ -11,7 +11,7 @@ import com.aroute.module_route.MineRoutePath;
 import com.arouter.baselibrary.base.BaseFragment;
 
 /**
- * 模块编译运行时调用
+ * 主页tab mine
  */
 @Route(path = MineRoutePath.MINE_FRAGMENT)
 public class MineFragment extends BaseFragment {

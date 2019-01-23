@@ -11,7 +11,7 @@ import com.arouter.baselibrary.base.BaseActivity;
 
 
 /**
- * 闪屏页面——进入主界面
+ * 闪屏页面
  */
 public class SplashActivity extends BaseActivity {
 

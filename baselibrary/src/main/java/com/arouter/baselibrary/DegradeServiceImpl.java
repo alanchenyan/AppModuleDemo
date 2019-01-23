@@ -8,8 +8,8 @@ import com.alibaba.android.arouter.facade.service.DegradeService;
 import com.alibaba.android.arouter.launcher.ARouter;
 
 /**
- * 降级策略，隐性的Intent不能匹配所有的Activity时，我们的Activity就会报错，
- * 更坏的结果就是会导致崩溃,降级策略就是为了解决这个问题的。
+ *
+ * 要用ARouter跳转才能拦截到，用Intent隐式或显示跳转无法拦截，出错还是会crash
  */
 @Route(path = RoutePath.DEGRADE)
 public class DegradeServiceImpl implements DegradeService {

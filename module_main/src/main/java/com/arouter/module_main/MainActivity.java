@@ -14,7 +14,9 @@ import com.aroute.module_route.MineRoutePath;
 import com.aroute.module_route.VideoRoutePath;
 import com.arouter.baselibrary.base.BaseActivity;
 
-
+/**
+ * 登录后的主页
+ */
 @Route(path = MainRoutePath.MAIN_ACTIVITY)
 public class MainActivity extends BaseActivity {
 

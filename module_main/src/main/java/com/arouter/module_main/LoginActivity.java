@@ -12,7 +12,7 @@ import com.arouter.baselibrary.MyApplication;
 import com.arouter.baselibrary.base.BaseActivity;
 
 /**
- * 独编译运行时调用
+ * 登录界面
  */
 @Route(path = MainRoutePath.LOGIN_ACTIVITY)
 public class LoginActivity extends BaseActivity {

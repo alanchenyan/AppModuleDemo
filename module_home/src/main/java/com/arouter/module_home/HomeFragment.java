@@ -13,7 +13,7 @@ import com.arouter.baselibrary.IUserInfo;
 import com.arouter.baselibrary.base.BaseFragment;
 
 /**
- * 模块编译运行时调用
+ * 主页tab Home
  */
 @Route(path = HomeRoutePath.HOME_FRAGMENT)
 public class HomeFragment extends BaseFragment {

@@ -5,11 +5,8 @@ import android.app.Application;
 import com.alibaba.android.arouter.launcher.ARouter;
 
 /**
- * date：2018/7/3 on 10:59
- * description:
- *
+ * Application
  */
-
 public class MyApplication extends Application {
 
     private static MyApplication instance;

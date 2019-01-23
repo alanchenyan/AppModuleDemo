@@ -9,7 +9,7 @@ import com.aroute.module_route.VideoRoutePath;
 import com.arouter.baselibrary.base.BaseFragment;
 
 /**
- * 模块编译运行时调用
+ * 主页 video
  */
 @Route(path = VideoRoutePath.VIDEO_FRAGMENT)
 public class VideoFragment extends BaseFragment {
