@@ -26,7 +26,7 @@ android {
         }
         javaCompileOptions {
             annotationProcessorOptions {
-                arguments = [AROUTER_MODULE_NAME: project.getName()]
+                arguments = [AROUTER_MODULE_NAME: project.getName(),AROUTER_GENERATE_DOC: "enable"]
             }
         }
     }
