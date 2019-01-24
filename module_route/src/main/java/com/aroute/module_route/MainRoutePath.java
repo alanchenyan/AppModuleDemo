@@ -8,6 +8,4 @@ public class MainRoutePath {
 
     public static final String LOGIN_ACTIVITY = PREFIX+"LoginActivity";
 
-    public static final String NO_LOGIN_TIP_ACTIVITY = PREFIX+"NoLoginTipActivity";
-
 }
