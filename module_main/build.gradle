@@ -50,10 +50,4 @@ dependencies {
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.4'
     implementation project(':baselibrary')
     implementation project(':module_route')
-    if (!isModule.toBoolean()) {
-        implementation project(':module_home')
-        implementation project(':module_video')
-        implementation project(':module_mine')
-    }
-
 }
